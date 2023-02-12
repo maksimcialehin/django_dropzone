@@ -6,7 +6,7 @@ Upload docs
 
 {% block content %}
 <div class="container">
-    <form action="upload/" method="POST" class="dropzone" id="my-awesome-dropzone">
+    <form action="upload/" method="POST" class="dropzone" id="upload-dropzone">
         {% csrf_token %}
         <div class="fallback">
             <input type="file" accept=".jpg, .jpeg, .png" name="file" multiple/>
